@@ -1,0 +1,37 @@
+body{
+    background-image:url(../../images/abstract.jpg)!important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main{
+    margin-bottom: 69px;
+}
+
+.footer-copyright{
+    background-color: black!important;
+    opacity: .7;
+}
+
+.card{
+    opacity: .9;
+    background: linear-gradient(#F7F0DE, #FBF6E8, #FBF6E8, #f7f0de) 
+  
+    
+}
+
+#contentTitle{
+    color: #F2B90D;
+    text-shadow: .5px .5px 3px black;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+p{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    line-height: 1.5em;
+    font-family: 'Montserrat Alternates', sans-serif!important;
+
+}

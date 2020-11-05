@@ -1,0 +1,39 @@
+main{
+    margin-bottom: 69px;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/122458/pexels-photo-122458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+   font-family: 'Montserrat Alternates', sans-serif!important;
+}
+
+.footer-copyright{
+    background-color: black!important;
+    opacity: .7;
+}
+
+.slide-container{
+    max-width: 475px;
+    max-height: 570px;
+}
+
+.schedulerImg{
+    max-width: 475px;
+    max-height: 400px;
+}
+
+.portfolioCard{
+    border-bottom-left-radius: 15px ;
+    border-bottom-right-radius: 15px;
+    background-color: #F7F0DE;
+    opacity: .98;
+}
+
+.card-title{
+    font-weight:700 ;
+}
+.jumbotron{
+    background-color:#F7F0DE;
+    opacity: .98;
+}
+
+

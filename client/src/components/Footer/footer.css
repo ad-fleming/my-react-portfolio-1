@@ -1,0 +1,12 @@
+.footer-copyright {
+    border-top: solid 5px #fff!important;
+    background-color: black;
+    padding: 20px;
+    opacity: .3;
+}
+
+.footer-copyright span {
+    color: white;
+    opacity: .5;
+    font-size:1em;
+}
