@@ -1,0 +1,57 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* This ensures that the minimum amount height of the <main> div is 100% - (navbar height) - 2(footer height) */
+main {
+    min-height: calc(100vh - 62px - 69px);
+    font-family: 'Montserrat Alternates', sans-serif!important;
+}
+
+.navbar{
+    background-color: black!important;
+    opacity: .7;
+    font-family: 'Montserrat Alternates', sans-serif!important;
+
+}
+
+.portfolioImage {
+    width:100%;
+}
+
+
+/* 
+.footer-copyright {
+    border-top: solid 5px #fff!important;
+    background-color: black;
+    padding: 20px;
+    opacity: .3;
+}
+
+.footer-copyright span {
+    color: white;
+    opacity: .5;
+    font-size:1em;
+} */
+
+
+.navbar-brand {
+    font-weight: bolder;
+    font-size: 1.5em;
+    letter-spacing: 3.0px;
+    color: #fff;
+    
+}
+
+
+/* set custom sizing for About Me image, so that once there is not an available space to display at 250px,25px, it shrinks down to 60% width and sets height to be auto */
+#about-me-img {
+    max-width: 300px;
+    max-height: 300px;
+    width: 60%;
+    height: auto;
+}
