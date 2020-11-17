@@ -8,6 +8,8 @@ import project1 from "../../images/project-1.png"
 import burgerApp from "../../images/burger-start.png"
 import employee from "../../images/employee.png"
 import cogs from "../../images/cogs.png"
+import onlydungeons from "../../images/onlydungeons.png"
+
 
 
 export default function Portfolio() {
@@ -26,26 +28,22 @@ export default function Portfolio() {
                 </div>
               </div>
       </article>
-        <div className="row d-flex justify-content-around">
+
+      <div className="row mt-3 d-flex justify-content-around">
             <ProjectCard
-            projectName="Password Generator"
-            projectDescription="This basic application generates randomized passwords based on user inputs."
-            projectLink="https://github.com/ad-fleming/javaScript-password-generator"
-            projectImage={passwordGen}
+            projectName="OnlyDungeons"
+            projectDescription="OnlyDungeons helps connect tabletop gaming community to find and join games with ease."
+            projectLink="https://github.com/ad-fleming/OnlyDungeons2"
+            projectImage={onlydungeons}
             />
             <ProjectCard
-            projectName="Workday Scheduler"
-            projectDescription="This basic day planner utilizes local storage and Moment js to save and display tasks throughout your day!"
-            projectLink="https://github.com/ad-fleming/calendar-application"
-            projectImage={scheduler}
-            />
-            <ProjectCard
-            projectName="Weather Dashboard"
-            projectDescription="Search by city name to get current and 5-day forecasts around the world!"
-            projectLink="https://github.com/ad-fleming/weather-dashboard-app"
-            projectImage={weatherApp}
+            projectName="COGS Inventory Managment"
+            projectDescription="COGS is an inventory management solution designed for small-business owners."
+            projectLink="https://github.com/ad-fleming/COGS-Inventory-Management"
+            projectImage={cogs}
             />
         </div>
+        
 
         <div className="row mt-3 d-flex justify-content-around">
             <ProjectCard
@@ -68,14 +66,28 @@ export default function Portfolio() {
             />
         </div>
 
-        <div className="row mt-3 d-flex justify-content-around">
+        <div className="row d-flex justify-content-around">
             <ProjectCard
-            projectName="COGS Inventory Managment"
-            projectDescription="COGS is an inventory management solution designed for small-business owners."
-            projectLink="https://github.com/ad-fleming/COGS-Inventory-Management"
-            projectImage={cogs}
+            projectName="Password Generator"
+            projectDescription="This basic application generates randomized passwords based on user inputs."
+            projectLink="https://github.com/ad-fleming/javaScript-password-generator"
+            projectImage={passwordGen}
+            />
+            <ProjectCard
+            projectName="Workday Scheduler"
+            projectDescription="This basic day planner utilizes local storage and Moment js to save and display tasks throughout your day!"
+            projectLink="https://github.com/ad-fleming/calendar-application"
+            projectImage={scheduler}
+            />
+            <ProjectCard
+            projectName="Weather Dashboard"
+            projectDescription="Search by city name to get current and 5-day forecasts around the world!"
+            projectLink="https://github.com/ad-fleming/weather-dashboard-app"
+            projectImage={weatherApp}
             />
         </div>
+
+        
     </main>
   );
 }
